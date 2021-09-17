@@ -6,7 +6,7 @@ const params = {
 }
 
 
-const URL = "https://stormy-brook-79548.herokuapp.com/api"
+const URL = "https://api-pwa-news.herokuapp.com/api"
 
 function getNews(subject) {
   return fetch(`${URL}/${subject}`, params)
